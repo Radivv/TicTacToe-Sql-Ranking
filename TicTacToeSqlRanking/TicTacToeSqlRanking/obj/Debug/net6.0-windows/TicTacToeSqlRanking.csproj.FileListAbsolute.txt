@@ -1,0 +1,17 @@
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\bin\Debug\net6.0-windows\TicTacToeSqlRanking.exe
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\bin\Debug\net6.0-windows\TicTacToeSqlRanking.deps.json
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\bin\Debug\net6.0-windows\TicTacToeSqlRanking.runtimeconfig.json
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\bin\Debug\net6.0-windows\TicTacToeSqlRanking.dll
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\bin\Debug\net6.0-windows\TicTacToeSqlRanking.pdb
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.csproj.AssemblyReference.cache
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.Form1.resources
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.csproj.GenerateResource.cache
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.AssemblyInfoInputs.cache
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.AssemblyInfo.cs
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.csproj.CoreCompileInputs.cache
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.dll
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\refint\TicTacToeSqlRanking.dll
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.pdb
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\TicTacToeSqlRanking.genruntimeconfig.cache
+D:\GIT\TicTacToe-Sql-Ranking\TicTacToeSqlRanking\TicTacToeSqlRanking\obj\Debug\net6.0-windows\ref\TicTacToeSqlRanking.dll
