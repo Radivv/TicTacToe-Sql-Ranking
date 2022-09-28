@@ -1,7 +1,7 @@
 
 # Tic Tac Toe C# 
 
-#to do:
+**TO-DO:**
 - database with ranking
 - selecting player
 
