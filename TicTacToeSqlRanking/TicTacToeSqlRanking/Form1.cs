@@ -2,8 +2,15 @@ using System.Diagnostics;
 
 namespace TicTacToeSqlRanking
 {
+
+
     public partial class Form1 : Form
     {
+        class Points
+        {
+            public int x { get; set; }
+            public int o { get; set; }
+        }
         private enum Player
         {
             X, // 0
@@ -11,9 +18,10 @@ namespace TicTacToeSqlRanking
             none // 2
         };
 
+        private Points points = new Points();
+
         int xyz = 0;
-        int x_Points = 0;
-        int o_Points = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -32,14 +40,14 @@ namespace TicTacToeSqlRanking
             {
                 case Player.X:
                     {
-                        x_Points++;
-                        label1.Text = "X: " + x_Points.ToString();
+                        points.x++;
+                        label1.Text = Player.X.ToString() + ": "+ points.x.ToString();
                     }
                     break;
                 case Player.O:
                     {
-                        o_Points++;
-                        label2.Text = "O: " + o_Points.ToString();
+                        points.o++;
+                        label2.Text = Player.O.ToString() + ": " + points.o.ToString();
 
                     }break;
             }
@@ -111,7 +119,7 @@ namespace TicTacToeSqlRanking
                     {
                         finishGame(Player.O);
                     }break;
-                case "":
+                case " ":
                     {
                         finishGame(Player.none);
                     }break;
@@ -151,12 +159,11 @@ namespace TicTacToeSqlRanking
             {
                 if (xyz % 2 == 0)
                 {
-                    ((Button)sender).Text = "X";
+                    ((Button)sender).Text = Player.X.ToString();
                 }
                 else
                 {
-                    ((Button)sender).Text = "O";
-
+                    ((Button)sender).Text = Player.O.ToString();
                 }
                 xyz++;
                 checkGame();
