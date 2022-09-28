@@ -11,12 +11,6 @@ namespace TicTacToeSqlRanking
             public int x { get; set; }
             public int o { get; set; }
         }
-
-        class PlayerName
-        {
-            public string x { get; set; }
-            public string o { get; set; }
-        }
         private enum Player
         {
             X, // 0
@@ -25,16 +19,12 @@ namespace TicTacToeSqlRanking
         };
 
         private Points points = new Points();
-        private PlayerName playerName = new PlayerName();
 
         int xyz = 0;
 
         public Form1()
         {
             InitializeComponent();
-            panel1.Location = new Point(4442, 29);
-
-
             foreach (Control buttons in Controls)
             {
                 if (buttons is Button)
@@ -51,13 +41,13 @@ namespace TicTacToeSqlRanking
                 case Player.X:
                     {
                         points.x++;
-                        label1.Text = playerName.x + ": "+ points.x.ToString();
+                        label1.Text = Player.X.ToString() + ": "+ points.x.ToString();
                     }
                     break;
                 case Player.O:
                     {
                         points.o++;
-                        label2.Text = playerName.o + ": " + points.o.ToString();
+                        label2.Text = Player.O.ToString() + ": " + points.o.ToString();
 
                     }break;
             }
@@ -178,31 +168,6 @@ namespace TicTacToeSqlRanking
                 xyz++;
                 checkGame();
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text != " " && textBox2.Text != " ")
-            {
-                playerName.x = textBox1.Text;
-                playerName.o = textBox2.Text;
-                panel1.Location = new Point (32, 29);
-                panel2.Location = new Point(5000, 5000);
-                label1.Text = playerName.x + ": " + points.x.ToString();
-                label2.Text = playerName.o + ": " + points.o.ToString();
-
-
-            }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
